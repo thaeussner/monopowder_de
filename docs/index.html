@@ -10,7 +10,7 @@
 <meta name="author" content="Isotta Bernardoni">
 <meta name="author" content="Joël Kocher">
 <meta name="author" content="Till Höussner">
-<meta name="dcterms.date" content="2024-05-13">
+<meta name="dcterms.date" content="2024-05-14">
 
 <title>MonoPowder</title>
 <style>
@@ -51,13 +51,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#the-problem" id="toc-the-problem" class="nav-link active" data-scroll-target="#the-problem">The Problem</a></li>
-  <li><a href="#our-initial-brainstorming-ideas" id="toc-our-initial-brainstorming-ideas" class="nav-link" data-scroll-target="#our-initial-brainstorming-ideas">Our Initial Brainstorming Ideas</a>
+  <li><a href="#welches-problem-wollen-wir-lösen" id="toc-welches-problem-wollen-wir-lösen" class="nav-link active" data-scroll-target="#welches-problem-wollen-wir-lösen">Welches Problem wollen wir lösen?</a></li>
+  <li><a href="#die-ideen-aus-unserem-brainstorming" id="toc-die-ideen-aus-unserem-brainstorming" class="nav-link" data-scroll-target="#die-ideen-aus-unserem-brainstorming">Die Ideen aus unserem Brainstorming</a>
   <ul class="collapse">
-  <li><a href="#hand-cycle-setup" id="toc-hand-cycle-setup" class="nav-link" data-scroll-target="#hand-cycle-setup">Hand-Cycle Setup</a></li>
-  <li><a href="#rod-assisted-tracks" id="toc-rod-assisted-tracks" class="nav-link" data-scroll-target="#rod-assisted-tracks">Rod-Assisted Tracks</a></li>
-  <li><a href="#fully-motorized-tracks" id="toc-fully-motorized-tracks" class="nav-link" data-scroll-target="#fully-motorized-tracks">Fully Motorized Tracks</a></li>
-  <li><a href="#adapted-outriggers" id="toc-adapted-outriggers" class="nav-link" data-scroll-target="#adapted-outriggers">Adapted Outriggers</a></li>
+  <li><a href="#handrad-vorrichtung" id="toc-handrad-vorrichtung" class="nav-link" data-scroll-target="#handrad-vorrichtung">Handrad-Vorrichtung</a></li>
+  <li><a href="#handgeführte-raupen" id="toc-handgeführte-raupen" class="nav-link" data-scroll-target="#handgeführte-raupen">Handgeführte Raupen</a></li>
+  <li><a href="#rein-motorisierte-raupen" id="toc-rein-motorisierte-raupen" class="nav-link" data-scroll-target="#rein-motorisierte-raupen">Rein motorisierte Raupen</a></li>
+  <li><a href="#angepasste-outrigger" id="toc-angepasste-outrigger" class="nav-link" data-scroll-target="#angepasste-outrigger">Angepasste Outrigger</a></li>
   </ul></li>
   <li><a href="#our-solution" id="toc-our-solution" class="nav-link" data-scroll-target="#our-solution">Our Solution</a></li>
   <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">Feedback</a></li>
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 13, 2024</p>
+      <p class="date">May 14, 2024</p>
     </div>
   </div>
   
@@ -101,22 +101,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="the-problem" class="level1">
-<h1>The Problem</h1>
-<p>Experienced sitski users may like to ski off-piste, but can only do so with lift access. There is currently no solution for them to overcome flat or uphill sections in the backcountry, except for being towed.</p>
-<p>We want to create a solution for independent uphill propulsion to enable sitski users to join their friends on ski tours.</p>
+<p><a href="https://thaeussner.github.io/monopowder_en/"><strong><em>English Version</em></strong></a></p>
+<section id="welches-problem-wollen-wir-lösen" class="level1">
+<h1>Welches Problem wollen wir lösen?</h1>
+<p>Erfahrene Fahrer:innen von Monoskibobs können ohne Probleme Routen abseits der Piste befahren.</p>
+<p>Der Aufstieg ohne Lift, wie er selbst bei kleinen Variantenfahrten vorkommen kann, ist im Monoskibob bis jetzt jedoch sehr schwierig. Meist müssen Betroffene von der Gruppe aufwendig gezogen werden und/oder sich selbst den Hang hochstossen.</p>
+<p>Wir wollen konzeptuell eine neue Lösung für den unabhängigen Aufstieg im Monoskibob erarbeiten, und so einen Beitrag zur Inklusion bei Skitouren- und Variantenfahrten leisten.</p>
 </section>
-<section id="our-initial-brainstorming-ideas" class="level1">
-<h1>Our Initial Brainstorming Ideas</h1>
-<p>How would you propel yourself upwards? We worked out three initial ideas for the propulsion system:</p>
-<section id="hand-cycle-setup" class="level2">
-<h2 class="anchored" data-anchor-id="hand-cycle-setup">Hand-Cycle Setup</h2>
-<p>The idea is to attach a hybrid, electrically assisted hand-cycle system, which is common for wheelchairs, to the sitski. A rubber track would provide tracktion in the snow. The big problem here is the complex attachment and the lack of balance on rougher terrain, hence the need for external stabilization.</p>
+<section id="die-ideen-aus-unserem-brainstorming" class="level1">
+<h1>Die Ideen aus unserem Brainstorming</h1>
+<p>Wie befördert man sich im Skibob ohne Lift effizient einen Hang hinauf? Wir haben ein mögliche Ideen ausgearbeitet und dann die besten weiterverfolgt:</p>
+<section id="handrad-vorrichtung" class="level2">
+<h2 class="anchored" data-anchor-id="handrad-vorrichtung">Handrad-Vorrichtung</h2>
+<p>Die Idee ist, eine hybride Handrad-Vorrichtung (wie sie für Rollstühle erhältlich ist) vorne an den Skibob anzubringen. Das Rad würde durch eine Gummiraupe ersetzt werden, um möglichst viel Griff im Schnee zu garantieren. Das grosse Problem hierbei wäre die schwierige Befestigung am Skibob und das grosse, komplexe System, sowie der Mangel an Balancemöglichkeiten in unebenem Gelände, was externe Stabilisierung braucht.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/handcycle.png" class="img-fluid figure-img"></p>
-<figcaption>The hand-cycle system for wheelchairs, which could be adapted to the sitski.<br>
-<em>Source:</em> <a href="https://www.paraplegie.ch/orthotec/en/aids/using-wheelchair/sports-devices/hand-bikes/">EMPULSE Attitude Hybrid</a></figcaption>
+<figcaption>Eine Handrad-Vorrichtung für Rollstühle, welche am Skibob befestigt werden würde.<br>
+<em>Quelle:</em> <a href="#0">EMPULSE Attitude Hybrid</a></figcaption>
 </figure>
 </div>
 <table class="table">
@@ -132,31 +134,27 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Existing systems on the market</td>
-<td>Lack of balance and need for external stabilization</td>
+<td>Das System existiert schon auf dem Markt</td>
+<td>Fehlende Balancemöglichkeiten</td>
 </tr>
 <tr class="even">
-<td>Ergonomic power delivery and hybrid assistance</td>
-<td>Bulky system, complex attachment to the sitski</td>
+<td>Ergonomische Kraftübertragung mit hybrider Unterstützung</td>
+<td>Komplexes, sperriges System mit schwieriger Befestigung am Skibob.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Verdict:</strong> The idea was not pursued further because of better alternatives</p>
+<p><strong>Entscheid:</strong> Die Idee wurde aufgrund besserer Alternativen nicht weiter verfolgt.</p>
 </section>
-<section id="rod-assisted-tracks" class="level2">
-<h2 class="anchored" data-anchor-id="rod-assisted-tracks">Rod-Assisted Tracks</h2>
-<p>The idea is to attach big, hybrid tracks underneath the sitski, which are driven by a handheld rod and assiste by an electric motor. Traction would be good, but the power delivery is not as ergonomic and it would also need external stabilization.</p>
+<section id="handgeführte-raupen" class="level2">
+<h2 class="anchored" data-anchor-id="handgeführte-raupen">Handgeführte Raupen</h2>
+<p>Die Idee wäre, grosse, motorisierte Raupen unter dem Skibob zu befestigen, welche mit Griffen von Hand geführt und dabei von einem Motor unterstützt werden. Griff im Schnee wäre kein Problem, jedoch ist die Kraftübertragung nicht sehr ergonomisch und auch dieses Design bräuchte externe Stabilisierung.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/rodassist.png" class="img-fluid figure-img"></p>
-<figcaption>Concept render of the rod-assisted tracks. <a href="https://grabcad.com/library/sit-ski-1">Sitski model by Hunter King</a></figcaption>
+<figcaption>Konzeptuelles Modell der handgeführten Raupen. <a href="https://grabcad.com/library/sit-ski-1">Sitski-Modell von Hunter King</a></figcaption>
 </figure>
 </div>
 <table class="table">
-<colgroup>
-<col style="width: 41%">
-<col style="width: 58%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Pros</th>
@@ -165,24 +163,24 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Good position underneath the sitski</td>
-<td>Lack of balance and need for external stabilization</td>
+<td>Gute Position unter dem Sitz</td>
+<td>Braucht auch externe Stabilisierung</td>
 </tr>
 <tr class="even">
-<td>Less complex system</td>
-<td>Power delivery not as ergonomic</td>
+<td>Weniger Komplexität</td>
+<td>Unergonomische Kraftübertragung</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Verdict:</strong> The idea was not pursued further because of better alternatives</p>
+<p><strong>Entscheid:</strong> Die Idee wurde aufgrund besserer Alternativen nicht weiter verfolgt.</p>
 </section>
-<section id="fully-motorized-tracks" class="level2">
-<h2 class="anchored" data-anchor-id="fully-motorized-tracks">Fully Motorized Tracks</h2>
-<p>The idea is to attach smaller, electrically motorized tracks to the ski for propulsion. The hands would be free to balance, push and steer the sitski with outriggers. The tracks would preferably be placed in front and attached to the sitski frame with ropes, as this is the simplest attachment. The drawback of this would be limited traction, as most of the weight is in the back of the ski, especially when going up a slope.</p>
+<section id="rein-motorisierte-raupen" class="level2">
+<h2 class="anchored" data-anchor-id="rein-motorisierte-raupen">Rein motorisierte Raupen</h2>
+<p>Die Idee ist, kleinere, rein elektrisch motorisierte Raupen am Ski zu befestigen. Die Hände wären somit frei für die Stabilisierung, Balance und Steuerung mit angepassten Outriggern. Die Raupen würden am vorderen Teil des Skis befestigt und wären mit Seilen mit dem Skibob verbunden, da dies einfacher als eine Anbringung hinten wäre. Ein Nachteil dabei ist der mangelhafte Griff im Schnee, vor allem bei steileren Anstiegen.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/motorized.png" class="img-fluid figure-img"></p>
-<figcaption>Concept render of the motorized tracks. <a href="https://grabcad.com/library/sit-ski-1">Sitski model by Hunter King</a></figcaption>
+<figcaption>Konzeptuelles Modell der motorisierten Raupen. <a href="https://grabcad.com/library/sit-ski-1">Sitski-Modell von Hunter King</a></figcaption>
 </figure>
 </div>
 <table class="table">
@@ -198,19 +196,19 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Small, relatively simple and easy to attach</td>
-<td>Position in front not optimal for traction</td>
+<td>Klein und einfach anzubringen</td>
+<td>Befestung vorne nicht optimal für den Griff im Schnee</td>
 </tr>
 <tr class="even">
-<td>Hand are free for balance, steering and pushing</td>
-<td>Not a hybrid system, but fully motorized.</td>
+<td>Die Hände sind frei für Balance und Steuerung</td>
+<td>Kein Hybridsystem, da völlig motorisiert</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Verdict:</strong> The idea is part of the final solution, as it’s the most viable option.</p>
+<p><strong>Entscheid:</strong> Die Idee ist Teil der finalen Lösung.</p>
 </section>
-<section id="adapted-outriggers" class="level2">
-<h2 class="anchored" data-anchor-id="adapted-outriggers">Adapted Outriggers</h2>
+<section id="angepasste-outrigger" class="level2">
+<h2 class="anchored" data-anchor-id="angepasste-outrigger">Angepasste Outrigger</h2>
 <p>For the small, motorized tracks proposed above, the hands would be free for balance, pushing and steering. To make this viable, the plates of the outriggers, which are usually small skis for the downhill, would have to be replaced by snowshoe-like plates to provide traction when pushing and steering. Also, the handle would need to house the actuator and for the motors, which would be in joystick-form to accomodate selectively actuating the two tracks for steering assistance. Optionally, the handle could contain a force sensor to measure the pushing force and couple this to the motor power, similar to how e-bikes operate. For the downhill, the traction plate could be swapped out for the regular ski plate.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">

@@ -16,59 +16,63 @@ format:
     css: styles.css
 ---
 
-# The Problem
+[***English Version***](https://thaeussner.github.io/monopowder_en/)
 
-Experienced sitski users may like to ski off-piste, but can only do so with lift access. There is currently no solution for them to overcome flat or uphill sections in the backcountry, except for being towed.
+# Welches Problem wollen wir lösen?
 
-We want to create a solution for independent uphill propulsion to enable sitski users to join their friends on ski tours.
+Erfahrene Fahrer:innen von Monoskibobs können ohne Probleme Routen abseits der Piste befahren.
 
-# Our Initial Brainstorming Ideas
+Der Aufstieg ohne Lift, wie er selbst bei kleinen Variantenfahrten vorkommen kann, ist im Monoskibob bis jetzt jedoch sehr schwierig. Meist müssen Betroffene von der Gruppe aufwendig gezogen werden und/oder sich selbst den Hang hochstossen.
 
-How would you propel yourself upwards? We worked out three initial ideas for the propulsion system:
+Wir wollen konzeptuell eine neue Lösung für den unabhängigen Aufstieg im Monoskibob erarbeiten, und so einen Beitrag zur Inklusion bei Skitouren- und Variantenfahrten leisten.
 
-## Hand-Cycle Setup
+# Die Ideen aus unserem Brainstorming
 
-The idea is to attach a hybrid, electrically assisted hand-cycle system, which is common for wheelchairs, to the sitski. A rubber track would provide tracktion in the snow. The big problem here is the complex attachment and the lack of balance on rougher terrain, hence the need for external stabilization.
+Wie befördert man sich im Skibob ohne Lift effizient einen Hang hinauf? Wir haben ein mögliche Ideen ausgearbeitet und dann die besten weiterverfolgt:
 
-![The hand-cycle system for wheelchairs, which could be adapted to the sitski.\
-*Source:* [EMPULSE Attitude Hybrid](https://www.paraplegie.ch/orthotec/en/aids/using-wheelchair/sports-devices/hand-bikes/)](images/handcycle.png){fig-align="left"}
+## Handrad-Vorrichtung
 
-| Pros                                           | Cons                                                |
+Die Idee ist, eine hybride Handrad-Vorrichtung (wie sie für Rollstühle erhältlich ist) vorne an den Skibob anzubringen. Das Rad würde durch eine Gummiraupe ersetzt werden, um möglichst viel Griff im Schnee zu garantieren. Das grosse Problem hierbei wäre die schwierige Befestigung am Skibob und das grosse, komplexe System, sowie der Mangel an Balancemöglichkeiten in unebenem Gelände, was externe Stabilisierung braucht.
+
+![Eine Handrad-Vorrichtung für Rollstühle, welche am Skibob befestigt werden würde.\
+*Quelle:* [EMPULSE Attitude Hybrid](#0)](images/handcycle.png){fig-align="left"}
+
+| Pros                                                     | Cons                                                               |
 |----------------------------------|--------------------------------------|
-| Existing systems on the market                 | Lack of balance and need for external stabilization |
-| Ergonomic power delivery and hybrid assistance | Bulky system, complex attachment to the sitski      |
+| Das System existiert schon auf dem Markt                 | Fehlende Balancemöglichkeiten                                      |
+| Ergonomische Kraftübertragung mit hybrider Unterstützung | Komplexes, sperriges System mit schwieriger Befestigung am Skibob. |
 
-**Verdict:** The idea was not pursued further because of better alternatives
+**Entscheid:** Die Idee wurde aufgrund besserer Alternativen nicht weiter verfolgt.
 
-## Rod-Assisted Tracks
+## Handgeführte Raupen
 
-The idea is to attach big, hybrid tracks underneath the sitski, which are driven by a handheld rod and assiste by an electric motor. Traction would be good, but the power delivery is not as ergonomic and it would also need external stabilization.
+Die Idee wäre, grosse, motorisierte Raupen unter dem Skibob zu befestigen, welche mit Griffen von Hand geführt und dabei von einem Motor unterstützt werden. Griff im Schnee wäre kein Problem, jedoch ist die Kraftübertragung nicht sehr ergonomisch und auch dieses Design bräuchte externe Stabilisierung.
 
-![Concept render of the rod-assisted tracks. [Sitski model by Hunter King](https://grabcad.com/library/sit-ski-1)](images/rodassist.png){fig-align="left"}
+![Konzeptuelles Modell der handgeführten Raupen. [Sitski-Modell von Hunter King](https://grabcad.com/library/sit-ski-1)](images/rodassist.png){fig-align="left"}
 
-| Pros                                | Cons                                                |
-|------------------------------|------------------------------------------|
-| Good position underneath the sitski | Lack of balance and need for external stabilization |
-| Less complex system                 | Power delivery not as ergonomic                     |
+| Pros                         | Cons                                |
+|------------------------------|-------------------------------------|
+| Gute Position unter dem Sitz | Braucht auch externe Stabilisierung |
+| Weniger Komplexität          | Unergonomische Kraftübertragung     |
 
-**Verdict:** The idea was not pursued further because of better alternatives
+**Entscheid:** Die Idee wurde aufgrund besserer Alternativen nicht weiter verfolgt.
 
-## Fully Motorized Tracks
+## Rein motorisierte Raupen
 
-The idea is to attach smaller, electrically motorized tracks to the ski for propulsion. The hands would be free to balance, push and steer the sitski with outriggers. The tracks would preferably be placed in front and attached to the sitski frame with ropes, as this is the simplest attachment. The drawback of this would be limited traction, as most of the weight is in the back of the ski, especially when going up a slope.
+Die Idee ist, kleinere, rein elektrisch motorisierte Raupen am Ski zu befestigen. Die Hände wären somit frei für die Stabilisierung, Balance und Steuerung mit angepassten Outriggern. Die Raupen würden am vorderen Teil des Skis befestigt und wären mit Seilen mit dem Skibob verbunden, da dies einfacher als eine Anbringung hinten wäre. Ein Nachteil dabei ist der mangelhafte Griff im Schnee, vor allem bei steileren Anstiegen.
 
-![Concept render of the motorized tracks. [Sitski model by Hunter King](https://grabcad.com/library/sit-ski-1)](images/motorized.png){fig-align="left"}
+![Konzeptuelles Modell der motorisierten Raupen. [Sitski-Modell von Hunter King](https://grabcad.com/library/sit-ski-1)](images/motorized.png){fig-align="left"}
 
-| Pros                                            | Cons                                       |
+| Pros                                          | Cons                                                  |
 |--------------------------------------|----------------------------------|
-| Small, relatively simple and easy to attach     | Position in front not optimal for traction |
-| Hand are free for balance, steering and pushing | Not a hybrid system, but fully motorized.  |
+| Klein und einfach anzubringen                 | Befestung vorne nicht optimal für den Griff im Schnee |
+| Die Hände sind frei für Balance und Steuerung | Kein Hybridsystem, da völlig motorisiert              |
 
-**Verdict:** The idea is part of the final solution, as it's the most viable option.
+**Entscheid:** Die Idee ist Teil der finalen Lösung.
 
-## Adapted Outriggers
+## Angepasste Outrigger
 
-For the small, motorized tracks proposed above, the hands would be free for balance, pushing and steering. To make this viable, the plates of the outriggers, which are usually small skis for the downhill, would have to be replaced by snowshoe-like plates to provide traction when pushing and steering. Also, the handle would need to house the actuator and for the motors, which would be in joystick-form to accomodate selectively actuating the two tracks for steering assistance. Optionally, the handle could contain a force sensor to measure the pushing force and couple this to the motor power, similar to how e-bikes operate. For the downhill, the traction plate could be swapped out for the regular ski plate.
+Mir den kleinen, motorisierten Raupen wie oben vorgestellt, wären die Hände frei zum Stabilisieren, Steuer und Anschieben. Um dies zu ermöglichen müssen die Platten der Outriggers, welche regulär die Abfahrt an kleine Ski erinnern, durch Schneeschuh-ähnliche Platten für mehr Grip ersetzt werden. Also, the handle would need to house the actuator and for the motors, which would be in joystick-form to accomodate selectively actuating the two tracks for steering assistance. Optionally, the handle could contain a force sensor to measure the pushing force and couple this to the motor power, similar to how e-bikes operate. For the downhill, the traction plate could be swapped out for the regular ski plate.
 
 ![Concept render of the rod-assisted tracks](images/outrigger.png){fig-align="left"}
 
