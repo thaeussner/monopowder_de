@@ -93,8 +93,8 @@ Mir den kleinen, motorisierten Raupen wie oben vorgestellt, wären die Hände fr
 
 -   (Optional) To enable hybrid power delivery similar to an e-bike, the user could assist the motor by pushing the sitski uphill with the outriggers. To smoothly couple the arm assistance to the motor controls, a pressure sensor could be added to the handle of the outriggers to measure the pushing force exerted.
 
-![Concept render of the final solution with the motorized tracks and the adapted outriggers. [Sitski model by Hunter King](https://grabcad.com/library/sit-ski-1)*.* [Dummy by Barkfin.](https://grabcad.com/library/articulated-dummy-1)](images/final.png){fig-align="left"}
+![Concept render of the final solution with the motorized tracks and the adapted outriggers. [Sitski-Modell von Hunter King](https://grabcad.com/library/sit-ski-1)*.* [Dummy von Barkfin.](https://grabcad.com/library/articulated-dummy-1)](images/final.png){fig-align="left"}
 
 # Feedback
 
-Thank you for the interest in our little project. If you have any questions, ideas or other feedback, we would be happy to hear from you: [Link to Google Forms (german)](https://forms.gle/TSKb428KnsZWrjeY8){.uri}
+Vielen Dank für dein Interesse an unserem kleinen Projekt! Falls du Fragen, Ideen oder anderweitiges Feedback hast, wären wir froh über deine Meinung: [Link zu Google Forms](https://forms.gle/TSKb428KnsZWrjeY8){.uri}
